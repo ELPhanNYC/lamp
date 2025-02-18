@@ -11,16 +11,13 @@
     </div>
     <hr>
     <div class="profile-row">
-    <button onclick="location.href = 'register.html';">Register</button>
-    <button onclick="location.href = 'login.html';">Login</button>
+    <button onclick="location.href = '/register.html';">Register</button>
+    <button onclick="location.href = '/login.html';">Login</button>
 
     </div>
     <hr>
     <div class="content">
-        <?php
-            require __DIR__ . '/db.php';
-            echo "Your feed is empty!";
-        ?>
+        <p>Feed is in development ... </p>
     </div>
     
 </body>
